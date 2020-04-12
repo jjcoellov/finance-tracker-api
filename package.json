@@ -1,0 +1,16 @@
+{
+  "name": "finance-tracker-api",
+  "version": "0.1.0",
+  "description": "API for Finance Tracker App",
+  "main": "src/index.js",
+  "author": "Juan Coello",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "apollo-server": "^2.12.0",
+    "crypto": "^1.0.1"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
