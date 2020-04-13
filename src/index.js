@@ -17,23 +17,37 @@ const InMemoryStore = {
         {
             id: TransactionUtils.uuidv4(),
             date: "2010-10-10",
-            refNumber: "B1312",
-            description: "Ikea",
+            refNumber: "IK-001",
+            description: "Inter IKEA Group",
             amount: -100.00
         },
         {
             id: TransactionUtils.uuidv4(),
             date: "2010-10-09",
-            refNumber: "S010",
-            description: "Sale ACME",
-            amount: 900.00
+            refNumber: "ACME-01",
+            description: "Payment by ACME",
+            amount: 200.00
         },
         {
             id: TransactionUtils.uuidv4(),
             date: "2011-10-09",
-            refNumber: "S011",
+            refNumber: "PEP-01",
             description: "Venta Pepito",
             amount: 300.00
+        },
+        {
+            id: TransactionUtils.uuidv4(),
+            date: "2010-10-10",
+            refNumber: "ACME-01",
+            description: "Payment by ACME",
+            amount: 650.00
+        },
+        {
+            id: TransactionUtils.uuidv4(),
+            date: "2010-10-11",
+            refNumber: "ACME-01",
+            description: "Payment by ACME",
+            amount: 50.00
         },
     ],
 
@@ -41,7 +55,7 @@ const InMemoryStore = {
         {
             id: TransactionUtils.uuidv4(),
             date: "2010-10-09",
-            refNumber: "S010",
+            refNumber: "ACME-01",
             client: "Sale ACME",
             amount: 900.00,
         }
